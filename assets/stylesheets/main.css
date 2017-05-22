@@ -4,7 +4,6 @@ body {
 
 .mainDiv {
     background-color: lightblue;
-    border-radius: 5px;
 }
 
 .formRow {
@@ -50,6 +49,7 @@ body {
     margin: 0;
     padding: 5px;
     background-color: white;
+    overflow: hidden;
 }
 
 .formRow .formSection:last-of-type {
@@ -78,4 +78,6 @@ input[type=submit] {
     background-color: seagreen;
     color: white;
     border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
