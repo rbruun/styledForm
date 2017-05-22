@@ -1,0 +1,81 @@
+body {
+    background-color: lightblue;
+}
+
+.mainDiv {
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+.formRow {
+    display: flex;
+}
+.formRow:first-of-type .formSection:first-of-type {
+    border-top-left-radius: 10px;
+}
+.formRow:first-of-type .formSection:last-of-type {
+    border-top-right-radius: 10px;
+}
+.formRow:last-of-type .buttonSection {
+    border-bottom-left-radius: 10px;
+}
+.formRow:last-of-type .buttonSection {
+    border-bottom-right-radius: 10px;
+}
+.sections2 {
+    width: 50%;
+}
+.sections3 {
+    width: 33.33%;
+}
+.sections4 {
+    width: 25%;
+}
+.buttonSection {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    border: 2px solid lightgray;
+}
+.formSection {
+    display: flex;
+    justify-content: flex-start;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 2px 0px 0px 2px;
+    flex-direction: column;
+    margin: 0;
+    padding: 5px;
+    background-color: white;
+}
+
+.formRow .formSection:last-of-type {
+    border-right: 2px solid lightgray;
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 10px;
+}
+
+input, textarea {
+  font    : 12px sans-serif;
+
+  border  : none;
+  padding : 5px;
+  margin  : 0;
+  width   : 260px;
+
+  background: none;
+}
+input[type=submit] {
+    height: 30px;
+    width: 300px;
+    background-color: seagreen;
+    color: white;
+    border-radius: 5px;
+}
