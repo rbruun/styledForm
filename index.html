@@ -2,44 +2,45 @@
 <html>
 <head>
     <title>Flexbox Form</title>
-    <link type="text/css" rel="stylesheet" href="assets/stylesheets/main.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/stylesheets/main.css" />
 </head>
-    <body>
-        <form id="flexForm">
-            <div class="mainDiv">
-                <div class="formRow">
-                    <div class="formSection sections2">
-                        <div class="title">NAME</div>
-                        <div class="formField">
-                            <input type="text" name="applicantName" placeholder="What is your full name?"/>
-                        </div>
-                    </div>
-                    <div class="formSection sections2">
-                        <div class="title">COMPANY</div>
-                        <div class="formField">
-                            <input type="text" name="company" placeholder="Where do you currently work?"/>
-                        </div>
+
+<body>
+    <form id="flexForm">
+        <div class="mainDiv">
+            <div class="formRow">
+                <div class="formSection sections2">
+                    <div class="title">NAME</div>
+                    <div class="formField">
+                        <input type="text" name="applicantName" placeholder="What is your full name?" />
                     </div>
                 </div>
-                <div class="formRow">
-                    <div class="formSection sections3">
-                        <div class="title">PHONE NUMBER</div>
-                        <div class="formField">
-                            <input type="text" name="phoneNumber" placeholder="What is the best # to reach you?">
-                        </div>
+                <div class="formSection sections2">
+                    <div class="title">COMPANY</div>
+                    <div class="formField">
+                        <input type="text" name="company" placeholder="Where do you currently work?" />
                     </div>
-                    <div class="formSection sections3">
-                        <div class="title">EMAIL</div>
-                        <div class="formField">
-                            <input type="text" name="email" placeholder="What is your Email address?"/>
-                        </div>
+                </div>
+            </div>
+            <div class="formRow">
+                <div class="formSection sections3">
+                    <div class="title">PHONE NUMBER</div>
+                    <div class="formField">
+                        <input type="text" name="phoneNumber" placeholder="What is the best # to reach you?">
                     </div>
-                    <div class="formSection sections3">
-                        <div class="title">AVAILABILITY</div>
+                </div>
+                <div class="formSection sections3">
+                    <div class="title">EMAIL</div>
+                    <div class="formField">
+                        <input type="text" name="email" placeholder="What is your Email address?" />
+                    </div>
+                </div>
+                <div class="formSection sections3">
+                    <div class="title">AVAILABILITY</div>
+                    <div class="formField">
                         <div class="formField">
-                            <div class="formField">
                             <input list="workhours" name="workhours" placeholder="5-15 hours per week">
-                              <datalist id="workhours">
+                            <datalist id="workhours">
                                 <option value="5">
                                 <option value="6">
                                 <option value="7">
@@ -53,41 +54,41 @@
                                 <option value="15">
                               </datalist>
                         </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="formRow">
-                    <div class="formSection sections4">
-                        <div class="title">SKILLS</div>
-                        <div class="formField">
-                            <input type="text" name="skills" placeholder="List a few of your primary skills"/>
-                        </div>
-                    </div>
-                    <div class="formSection sections4">
-                        <div class="title">YRS EXPERIENCE</div>
-                        <div class="formField">
-                            <input type="text" name="yearsExperience" placeholder="How many years of experience?"/>
-                        </div>
-                    </div>
-                    <div class="formSection sections4">
-                        <div class="title">FAVORITE COLOR</div>
-                        <div class="formField">
-                            <input type="text" name="favColor" placeholder="What is your favorite color, above all others?"/>
-                        </div>
-                    </div>
-                    <div class="formSection sections4">
-                        <div class="title">PROGRAMMING LANGUAGE OF CHOICE</div>
-                        <div class="formField">
-                            <input type="text" name="programLang" placeholder="I know. Tough question."/>
-                        </div>
-                    </div>
-                </div>
-                <div class="formRow">
-                    <div class="buttonSection">
-                        <input type="submit" value="Submit Form">
                     </div>
                 </div>
             </div>
-        </form>
-    </body>
+            <div class="formRow">
+                <div class="formSection sections4">
+                    <div class="title">SKILLS</div>
+                    <div class="formField">
+                        <input type="text" name="skills" placeholder="List a few of your primary skills" />
+                    </div>
+                </div>
+                <div class="formSection sections4">
+                    <div class="title">YRS EXPERIENCE</div>
+                    <div class="formField">
+                        <input type="text" name="yearsExperience" placeholder="How many years of experience?" />
+                    </div>
+                </div>
+                <div class="formSection sections4">
+                    <div class="title">FAVORITE COLOR</div>
+                    <div class="formField">
+                        <input type="text" name="favColor" placeholder="What is your favorite color, above all others?" />
+                    </div>
+                </div>
+                <div class="formSection sections4">
+                    <div class="title">PROGRAMMING LANGUAGE OF CHOICE</div>
+                    <div class="formField">
+                        <input type="text" name="programLang" placeholder="I know. Tough question." />
+                    </div>
+                </div>
+            </div>
+            <div class="formRow">
+                <div class="buttonSection">
+                    <input type="submit" value="Submit Form">
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
 </html>
